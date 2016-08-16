@@ -1,0 +1,21 @@
+
+.not-valid{
+  padding-bottom: 25px;
+}
+
+.not-valid textarea,
+.not-valid select,
+.not-valid input{
+  border: 1px solid #d9534f !important;
+  box-shadow: 0px 0px 5px 0px rgba(217,83,79,0.3);
+}
+
+.not-valid:after{
+  content: attr(data-error);
+  color: #d9534f;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 98;
+}
+
