@@ -2,7 +2,7 @@
 
 var hooks = {
 	afterAbeAttributes: function afterAbeAttributes(obj, str, json, abe) {
-		var pattern = abe.getAttr(str, 'pattern')
+		var pattern = abe.cmsData.regex.getAttr(str, 'pattern')
 		if(str.indexOf('pattern=') > -1) obj.pattern = pattern;
 		return obj
 	},
