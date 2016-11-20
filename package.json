@@ -1,0 +1,25 @@
+{
+  "name": "abe-validator",
+  "version": "1.0.0",
+  "description": "```shell abe add https://github.com/AdFabConnect/abe-validator.git ```",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AdFabConnect/abe-validator.git"
+  },
+  "keywords": [
+    "abe",
+    "cms",
+    "plugin",
+    "validator"
+  ],
+  "author": "Nicolas Labbé",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AdFabConnect/abe-validator/issues"
+  },
+  "homepage": "https://github.com/AdFabConnect/abe-validator#readme"
+}
